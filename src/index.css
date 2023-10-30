@@ -9,6 +9,12 @@ body {
   color: #111235;
 }
 
+body,
+h1,
+p {
+  margin: 0;
+}
+
 button {
   font-family: "Poppins", sans-serif;
   border: none;
@@ -19,4 +25,8 @@ button {
   font-size: 1.125rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+section {
+  padding: 0 20px;
 }
