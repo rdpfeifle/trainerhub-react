@@ -3,6 +3,10 @@ nav {
   text-align: center;
 }
 
+nav ul {
+  display: none;
+}
+
 h2 {
   font-weight: normal;
   font-size: 2.25rem;
@@ -13,6 +17,25 @@ h2 {
 }
 
 /* Desktop styles */
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-} */
+  .logo-container h2,
+  .nav-links-container li {
+    cursor: pointer;
+  }
+
+  .nav-links-container {
+    width: 20%;
+  }
+
+  .nav-links-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+}
