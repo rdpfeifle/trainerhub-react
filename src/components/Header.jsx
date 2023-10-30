@@ -1,4 +1,5 @@
 import "./Header.css";
+import { BsSearch } from "react-icons/bs";
 
 export default function Header() {
   return (
@@ -13,6 +14,7 @@ export default function Header() {
           <li>Home</li>
           <li>About Us</li>
           <li>Contact</li>
+          <BsSearch className="nav-icon" />
         </ul>
       </div>
     </nav>

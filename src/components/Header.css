@@ -25,7 +25,8 @@ h2 {
   }
 
   .logo-container h2,
-  .nav-links-container li {
+  .nav-links-container li,
+  .nav-icon {
     cursor: pointer;
   }
 
@@ -37,5 +38,9 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+  }
+
+  .nav-icon {
+    font-size: 1.4rem;
   }
 }
