@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #111235;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  color: white;
+  border-radius: 35px;
+  background-color: #4b5092;
+  padding: 18px 80px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
