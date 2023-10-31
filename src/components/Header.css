@@ -37,7 +37,6 @@ h2 {
   .nav-links-container ul {
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
   }
 
   .nav-icon {

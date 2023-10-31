@@ -1,0 +1,142 @@
+footer {
+  background-color: #f2f8ff;
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer span {
+  font-weight: 700;
+}
+
+footer h2 {
+  margin: 20px 0;
+}
+
+footer h3 {
+  font-weight: 500;
+}
+
+footer li {
+  padding-bottom: 35px;
+}
+
+footer > p {
+  padding-bottom: 60px;
+}
+
+.social-links {
+  color: #80adf5;
+  background-color: #eff6ff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  margin-right: 16px;
+  margin-top: 24px;
+  margin: 24px 16px 60px 0;
+}
+
+.email-container {
+  display: inline-block;
+  align-items: center;
+  position: relative;
+}
+
+.email-input {
+  border: none;
+  padding: 8px 30px;
+  margin-right: 4px;
+  border-radius: 8px;
+}
+
+.send-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  cursor: pointer;
+}
+
+.send-icon:hover {
+  color: #4b5092;
+}
+/* Desktop styles
+@media screen and (min-width: 768px) {
+  hr {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  footer li {
+    padding-bottom: 0;
+    width: 48%;
+  }
+} */
+
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+  hr {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    flex-wrap: wrap; /* Enable wrapping for responsiveness */
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  h2 {
+    text-align: left;
+    width: 100%;
+  }
+
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+  }
+
+  footer li {
+    padding-bottom: 0;
+    width: 48%;
+  }
+
+  .right-corner-container {
+    text-align: right;
+    width: 45%; /* Adjust width to create right-corner container */
+  }
+
+  p {
+    text-align: left;
+    width: 100%;
+  }
+}
