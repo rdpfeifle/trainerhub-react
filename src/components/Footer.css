@@ -24,7 +24,7 @@ footer li {
   padding-bottom: 35px;
 }
 
-footer > p {
+.copyright {
   padding-bottom: 60px;
 }
 
@@ -65,78 +65,49 @@ footer > p {
 .send-icon:hover {
   color: #4b5092;
 }
-/* Desktop styles
-@media screen and (min-width: 768px) {
-  hr {
-    display: none;
-  }
 
+/* Desktop styles now */
+@media screen and (min-width: 768px) {
   footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding-top: 100px;
   }
 
-  .social-links {
+  footer hr {
     display: none;
+  }
+
+  footer h2,
+  footer div:not(.copyright),
+  footer ul {
+    flex-basis: calc(33.333% - 20px);
+  }
+
+  .email-input {
+    margin-top: 10px;
+    padding: 12px 50px;
   }
 
   footer ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 40%;
   }
 
   footer li {
-    padding-bottom: 0;
+    padding-bottom: 15px;
     width: 48%;
-  }
-} */
-
-/* Desktop styles */
-@media screen and (min-width: 768px) {
-  hr {
-    display: none;
-  }
-
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px;
-    flex-wrap: wrap; /* Enable wrapping for responsiveness */
   }
 
   .social-links {
     display: none;
   }
 
-  h2 {
-    text-align: left;
-    width: 100%;
-  }
-
-  footer ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 45%;
-  }
-
-  footer li {
-    padding-bottom: 0;
-    width: 48%;
-  }
-
-  .right-corner-container {
-    text-align: right;
-    width: 45%; /* Adjust width to create right-corner container */
-  }
-
-  p {
-    text-align: left;
-    width: 100%;
+  .copyright {
+    margin-top: 40px;
+    margin-left: 230px;
   }
 }
