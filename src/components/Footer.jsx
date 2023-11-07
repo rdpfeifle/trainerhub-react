@@ -43,7 +43,9 @@ export default function Footer() {
           <AiFillYoutube className="social-links" />
         </div>
       </div>
-      <p>© Copyright © 2023 TrainerHub.</p>
+      <div className="copyright">
+        <p>© Copyright © 2023 TrainerHub.</p>
+      </div>
     </footer>
   );
 }
